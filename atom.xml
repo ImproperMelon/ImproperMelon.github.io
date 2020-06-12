@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-12T09:07:00.017Z</updated>
+    <updated>2020-06-12T11:18:37.144Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -93,10 +93,11 @@
 <p>变量参数层：</p>
 <ul>
 <li>picURL</li>
-<li></li>
+<li>itemID</li>
 <li>title</li>
 <li>doOwn （所选择的专题是否拥有最热的五篇文章）</li>
 </ul>
+<h2 id="参考">参考</h2>
 ]]></content>
     </entry>
 </feed>
