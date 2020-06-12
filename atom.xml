@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-12T08:08:09.712Z</updated>
+    <updated>2020-06-12T08:50:46.011Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -12,12 +12,11 @@
     <rights>All rights reserved 2020, Immelon</rights>
     <entry>
         <title type="html"><![CDATA[党课学习]]></title>
-        <id>https://ImproperMelon.github.io/post/dang-ke-xue-xi/</id>
-        <link href="https://ImproperMelon.github.io/post/dang-ke-xue-xi/">
+        <id>https://ImproperMelon.github.io/post/partyLearning/</id>
+        <link href="https://ImproperMelon.github.io/post/partyLearning/">
         </link>
         <updated>2020-06-02T02:22:09.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h1 id="中国共产党的发展历程">中国共产党的发展历程</h1>
+        <content type="html"><![CDATA[<h1 id="中国共产党的发展历程">中国共产党的发展历程</h1>
 <p><strong>诞生--&gt; 新中国 --&gt; 革命与建设 --&gt; 继续前进</strong></p>
 <p>1840 年 鸦片战争</p>
 <p>1917 年 俄国十月革命</p>
@@ -76,16 +75,20 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[项目进行记录]]></title>
-        <id>https://ImproperMelon.github.io/post/xiang-mu-jin-xing-ji-lu/</id>
-        <link href="https://ImproperMelon.github.io/post/xiang-mu-jin-xing-ji-lu/">
+        <title type="html"><![CDATA[做一个 Flutter Widget]]></title>
+        <id>https://ImproperMelon.github.io/post/appDevelopment/</id>
+        <link href="https://ImproperMelon.github.io/post/appDevelopment/">
         </link>
         <updated>2020-05-20T15:49:33.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="接触项目的第一周">接触项目的第一周：</h2>
-<p>to-do List<br>
-[] 配置环境：Flutter 1.0.0<br>
-[]虚拟机调试环境： Nexus 4 Emulator<br>
-[]</p>
+        <content type="html"><![CDATA[<h2 id="环境">环境</h2>
+<ul>
+<li>操作系统：OSX 10.15</li>
+<li>编辑器： vscode, Xcode</li>
+<li>版本信息：Flutter 1.0.0</li>
+<li>模拟器： iPhoneSE(2nd Generation)</li>
+</ul>
+<h2 id="需求">需求</h2>
+<figure data-type="image" tabindex="1"><img src="https://ImproperMelon.github.io/post-images/1591951831333.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
