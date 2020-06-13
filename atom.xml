@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-13T09:15:18.646Z</updated>
+    <updated>2020-06-13T09:40:39.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -42,6 +42,16 @@
 <blockquote>
 <p>问题1： 因为我自己的本地磁盘不太够用， 我要把我的很多好东西放在你们的网盘上，但是我不希望你们把我的好东西不经我允许分享出去，而且我要随时能取用</p>
 </blockquote>
+<hr>
+<blockquote>
+<p>问题2：我想在不论是下载我自己过去存的东西，还是下载别人分享给我东西，都要很快的下载速度<br>
+<strong>可以，但是你需要加入校园网</strong></p>
+</blockquote>
+<blockquote>
+<p>问题3：我想不论在什么设备上，都可以访问到我的资源</p>
+</blockquote>
+<p><strong>可以。通过浏览器，你可以直接访问网页浏览或者下载以及上传自己的资源，但是这在手机或者平板上体验可能并不好。</strong></p>
+<p><strong>可以，提供三级服务：Web --&gt; App --&gt; RaspberryPi</strong></p>
 ]]></content>
     </entry>
     <entry>
