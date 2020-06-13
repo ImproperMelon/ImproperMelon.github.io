@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-13T01:56:51.315Z</updated>
+    <updated>2020-06-13T02:56:38.089Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -10,6 +10,43 @@
     <logo>https://ImproperMelon.github.io/images/avatar.png</logo>
     <icon>https://ImproperMelon.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Immelon</rights>
+    <entry>
+        <title type="html"><![CDATA[地震避险手册——东京]]></title>
+        <id>https://ImproperMelon.github.io/post/di-zhen-bi-xian-shou-ce-dong-jing/</id>
+        <link href="https://ImproperMelon.github.io/post/di-zhen-bi-xian-shou-ce-dong-jing/">
+        </link>
+        <updated>2020-06-13T02:09:07.000Z</updated>
+        <content type="html"><![CDATA[<p>不得不说，我很喜欢这样的城市，这样的城市应该能够更受到年轻人的偏爱。</p>
+<p>之前有上海市发布的地铁各线路乘坐舒适度预告。</p>
+<p><a href="https://www.metro.tokyo.lg.jp/chinese/guide/bosai/index.html">东京发布了一本地震避险手册</a>。<br>
+下面是一些我觉得<strong>比较值得注意</strong>的地方，完整的手册参考上面的链接</p>
+<h2 id="地震发生后应该立刻采取的行动">地震发生后应该立刻采取的行动</h2>
+<h3 id="汽车">汽车</h3>
+<p>如果发生地震的时候在汽车上</p>
+<ol>
+<li>打开应急灯，缓缓减速熄火（<strong>！避免急刹</strong>）</li>
+<li>如果可以，前往停车场或者广场</li>
+<li>将钥匙或者电子钥匙打开，车内留下联系方式，车锁打开，以便紧急车辆通过时挪车</li>
+</ol>
+<h3 id="室内">室内</h3>
+<ol>
+<li>要找到保护头部（枕头或者被子）和脚部（比较厚的东西）的东西</li>
+</ol>
+<h3 id="电梯里">电梯里</h3>
+<ol>
+<li>如果电梯正在运行，按下所有楼层按钮，尽快离开</li>
+<li>如果被困，使用电梯内紧急呼救电话</li>
+</ol>
+<h3 id="如果被困">如果被困</h3>
+<ol>
+<li>不要大声喊叫，浪费体力，要用身边物体发出比较大的声音。</li>
+</ol>
+<h3 id="夜间">夜间</h3>
+<ol>
+<li>准备好手电筒</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MacOS 开源软件]]></title>
         <id>https://ImproperMelon.github.io/post/macos-kai-yuan-ruan-jian/</id>
