@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-12T11:18:37.144Z</updated>
+    <updated>2020-06-13T01:28:17.730Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://ImproperMelon.github.io/images/avatar.png</logo>
     <icon>https://ImproperMelon.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Immelon</rights>
+    <entry>
+        <title type="html"><![CDATA[一个机器人梦]]></title>
+        <id>https://ImproperMelon.github.io/post/yi-ge-ji-qi-ren-meng/</id>
+        <link href="https://ImproperMelon.github.io/post/yi-ge-ji-qi-ren-meng/">
+        </link>
+        <updated>2020-06-13T01:24:29.000Z</updated>
+        <content type="html"><![CDATA[<p>Github 上果然很多好东西。</p>
+<p>帮你建造一个自己的火星车：<a href="https://github.com/nasa-jpl/open-source-rover">JPL Open Source Rover Project</a></p>
+<blockquote>
+<p>一个男生怎样才能不爱上机器人</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crash Course 科普]]></title>
+        <id>https://ImproperMelon.github.io/post/CrashCourse/</id>
+        <link href="https://ImproperMelon.github.io/post/CrashCourse/">
+        </link>
+        <updated>2020-06-13T01:13:11.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://crashcourse.club/category/">Crash Course 归档</a></p>
+<h2 id="b-站和-youtube-都有">B 站和 Youtube 都有</h2>
+<p>B 站上有个 Up 团队就是这个，他们的科普视频很符合阮一峰老师的想法，我也很喜欢看。</p>
+<h2 id="图像不再与内容不相干">图像不再与内容不相干</h2>
+<p>不同于我们以往的科普片（声调永不变的旁白 + 并不相干的影像），这种科普片用了大量的动画，并且与内容相关性很高。</p>
+<h2 id="信息密度超级大">信息密度超级大</h2>
+<p>不同于短视频，这种视频一般长度在 10~20min，非常适合睡前催眠（屡试不爽）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[病毒]]></title>
+        <id>https://ImproperMelon.github.io/post/virus/</id>
+        <link href="https://ImproperMelon.github.io/post/virus/">
+        </link>
+        <updated>2020-06-13T01:02:08.000Z</updated>
+        <content type="html"><![CDATA[<p>发现个有趣的网站，<a href="https://media.hhmi.org/biointeractive/click/virus-explorer/index.html#/transmission/person-to-person">Virus Explore</a></p>
+<p>期待它会加入新冠病毒。</p>
+<p>刚好今年遇上疫情，简单学习一下病毒，也算合理。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[党课学习]]></title>
         <id>https://ImproperMelon.github.io/post/partyLearning/</id>
