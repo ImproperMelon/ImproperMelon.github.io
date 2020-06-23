@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-15T11:24:24.211Z</updated>
+    <updated>2020-06-23T09:35:26.905Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Immelon</rights>
     <entry>
         <title type="html"><![CDATA[CMD 命令]]></title>
-        <id>https://ImproperMelon.github.io/post/cmd-ming-ling/</id>
-        <link href="https://ImproperMelon.github.io/post/cmd-ming-ling/">
+        <id>https://ImproperMelon.github.io/post/cmd/</id>
+        <link href="https://ImproperMelon.github.io/post/cmd/">
         </link>
         <updated>2020-06-15T08:34:34.000Z</updated>
         <content type="html"><![CDATA[<p>参考的一位香港（也许是台湾?）同胞的教程（同胞在文字表达上真的也好机车哦）</p>
@@ -68,6 +68,16 @@ Command Line Interface CLI</p>
 <code>type</code> 显示文字内容<br>
 <code>ping</code> 自己看</p>
 <h2 id="符号">符号</h2>
+<p><code>::</code> 注释<br>
+<code>.</code>与<code>..</code> 本目录与上层目录<br>
+<code>?</code> 表示一个不确定的字母，如<code>te?t</code> 可以表示 <code>test</code> 或者 <code>text</code><br>
+<code>*</code> 表示多个不确定的字母<br>
+<code>%</code>后跟变量<br>
+<code>nul</code> 或<code>null</code><br>
+<code>&gt;</code> 把将要显示在命令行的内容显示到 <code>&gt;</code> 之后的地方<br>
+<code>&gt;&gt;</code> 继续写入，（不同于<code>&gt;</code> ，<code>&gt;</code> 会将原来的内容覆盖）<br>
+<code>1&gt;</code> 标准输出到后面的地方<br>
+<code>2&gt;</code> 标准错误输出到后面的地方（只输出错误信息）</p>
 ]]></content>
     </entry>
     <entry>
