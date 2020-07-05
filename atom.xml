@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-06-23T10:16:44.939Z</updated>
+    <updated>2020-07-05T11:43:44.576Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -11,12 +11,57 @@
     <icon>https://ImproperMelon.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Immelon</rights>
     <entry>
+        <title type="html"><![CDATA[考后交流群的想法]]></title>
+        <id>https://ImproperMelon.github.io/post/kao-hou-jiao-liu-qun-de-xiang-fa/</id>
+        <link href="https://ImproperMelon.github.io/post/kao-hou-jiao-liu-qun-de-xiang-fa/">
+        </link>
+        <updated>2020-07-05T04:26:02.000Z</updated>
+        <content type="html"><![CDATA[<p>去年（2019）建了一个考后交流群，建立时，大概是这样的定位：</p>
+<ul>
+<li>主要对象： 面向淅川县一高的学生</li>
+<li>主要目的：给学生提供志愿报考上的帮助</li>
+<li>主要原则：
+<ul>
+<li>短期交流，录取结果出来之后解散</li>
+<li>热度适中，避免交流混乱</li>
+<li>平台效果，提供（准大学生——大学生之间的）对接功能</li>
+<li>公益活动，不给广告和推广进入的机会</li>
+</ul>
+</li>
+</ul>
+<p>最后效果基本满足以上要求，但是仍有一些不足：</p>
+<ol>
+<li>交流不充分，主要因为持续时间短、面向对象范围窄</li>
+<li>资料整理不完善，缺少比较擅长整理与处理文件的人</li>
+</ol>
+<p>今年打算重启，不一样的地方：</p>
+<ol>
+<li>成员结构变了（准大学生+大一+大二）</li>
+<li>客观环境变了（全面线下）</li>
+</ol>
+<p>今年的打算：</p>
+<ol>
+<li>面向对象：淅川的准大学生</li>
+<li>主要目的：提供高考后的全面交流</li>
+<li>主要原则：
+<ol>
+<li>团队协作：宣传推广+活动策划+行动策划+技术支持</li>
+<li>专业管理：资料管理、人员管理</li>
+<li>保驾护航：要提供高考后的一揽子支持</li>
+<li></li>
+</ol>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CMD 命令]]></title>
         <id>https://ImproperMelon.github.io/post/cmd/</id>
         <link href="https://ImproperMelon.github.io/post/cmd/">
         </link>
         <updated>2020-06-15T08:34:34.000Z</updated>
         <content type="html"><![CDATA[<p>参考的一位香港（也许是台湾?）同胞的教程（同胞在文字表达上真的也好机车哦）</p>
+<h1 id="参考网址">参考：<a href="https://lnpcd.blogspot.com/2012/09/00.html">网址</a></h1>
 <p>#基础知识</p>
 <h2 id="command-prompt">Command &amp; Prompt</h2>
 <blockquote>
@@ -77,7 +122,25 @@ Command Line Interface CLI</p>
 <code>&gt;</code> 把将要显示在命令行的内容显示到 <code>&gt;</code> 之后的地方<br>
 <code>&gt;&gt;</code> 继续写入，（不同于<code>&gt;</code> ，<code>&gt;</code> 会将原来的内容覆盖）<br>
 <code>1&gt;</code> 标准输出到后面的地方<br>
-<code>2&gt;</code> 标准错误输出到后面的地方（只输出错误信息）</p>
+<code>2&gt;</code> 标准错误输出到后面的地方（只输出错误信息）<br>
+<code>|</code>  将左边命令的输出结果转到右边的程序中（不理解啊）<br>
+<code>&amp;&amp;</code> 合并命令</p>
+<p><strong>还有 '@' 和 '^' 在后面介绍</strong></p>
+<h2 id="进阶">进阶</h2>
+<p><code>subst</code> subset，重挂载命令（一次性，重启 cmd 后无效）<br>
+<code>subset P: C:\Users</code> 这就可以把 C:\Users 这个目录挂载为 P:<br>
+<code>subset P: /D</code> 这个就可以把 P: 盘删除掉</p>
+<p><code>find</code> 百闻不如一见<br>
+<code>find &quot;text&quot; test.txt</code> 在 test.txt 文件中寻找 text 字符串，参数自己去看 help</p>
+<p><code>mountvol</code> 显示目前已经装载了的磁盘名（Volume：卷）<br>
+<img src="https://ImproperMelon.github.io/post-images/1592908840132.png" alt="" loading="lazy"></p>
+<pre><code>于是就有 mountvol | find &quot;:\&quot;
+这个可以显示当前的已装载的磁盘名
+</code></pre>
+<p><code>start</code> 启动一个程序（如果这个程序是一个控制台程序，它就会新开一个 cmd）<br>
+可以加上参数（可以设置优先性、以及可以限制此程序在哪一个 CPU 上运行，我们的电脑大多可不是单核的、还可以设置异步😱）</p>
+<h2 id="正题">正题</h2>
+<p><code>if</code>  与 <code>if not</code> 后面跟表达式</p>
 ]]></content>
     </entry>
     <entry>
@@ -244,17 +307,6 @@ Command Line Interface CLI</p>
 <p>不同于我们以往的科普片（声调永不变的旁白 + 并不相干的影像），这种科普片用了大量的动画，并且与内容相关性很高。</p>
 <h2 id="信息密度超级大">信息密度超级大</h2>
 <p>不同于短视频，这种视频一般长度在 10~20min，非常适合睡前催眠（屡试不爽）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[病毒]]></title>
-        <id>https://ImproperMelon.github.io/post/virus/</id>
-        <link href="https://ImproperMelon.github.io/post/virus/">
-        </link>
-        <updated>2020-06-13T01:02:08.000Z</updated>
-        <content type="html"><![CDATA[<p>发现个有趣的网站，<a href="https://media.hhmi.org/biointeractive/click/virus-explorer/index.html#/transmission/person-to-person">Virus Explore</a></p>
-<p>期待它会加入新冠病毒。</p>
-<p>刚好今年遇上疫情，简单学习一下病毒，也算合理。</p>
 ]]></content>
     </entry>
 </feed>
