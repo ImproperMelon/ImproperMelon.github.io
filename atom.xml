@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-07-07T13:54:44.140Z</updated>
+    <updated>2020-07-07T13:58:42.694Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -12,10 +12,10 @@
     <rights>All rights reserved 2020, Immelon</rights>
     <entry>
         <title type="html"><![CDATA[考后交流群的想法]]></title>
-        <id>https://ImproperMelon.github.io/post/kao-hou-jiao-liu-qun-de-xiang-fa/</id>
-        <link href="https://ImproperMelon.github.io/post/kao-hou-jiao-liu-qun-de-xiang-fa/">
+        <id>https://ImproperMelon.github.io/post/xichuan/</id>
+        <link href="https://ImproperMelon.github.io/post/xichuan/">
         </link>
-        <updated>2020-07-05T04:26:02.000Z</updated>
+        <updated>2020-07-07T13:57:01.000Z</updated>
         <content type="html"><![CDATA[<p>去年（2019）建了一个考后交流群，建立时，大概是这样的定位：</p>
 <ul>
 <li>主要对象： 面向淅川县一高的学生</li>
