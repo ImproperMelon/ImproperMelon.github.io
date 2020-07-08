@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-07-08T08:30:42.449Z</updated>
+    <updated>2020-07-08T12:21:44.862Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -161,6 +161,13 @@ Command Line Interface CLI</p>
 可以加上参数（可以设置优先性、以及可以限制此程序在哪一个 CPU 上运行，我们的电脑大多可不是单核的、还可以设置异步😱）</p>
 <h2 id="正题">正题</h2>
 <p><code>if</code>  与 <code>if not</code> 后面跟表达式</p>
+<h3 id="变量">变量</h3>
+<p><code>set</code> 设置一个变量 <code>set var=5</code>（数字）或者<code>set &quot;var=Test String&quot;</code>（字符串）（=两边不能有空格哦）</p>
+<ul>
+<li>-p ：等待用户的输入<code>set -p var=</code><br>
+<code>%</code>访问变量<code>echo %var%</code></li>
+</ul>
+<p>环境变量（经常用到这个东西）</p>
 ]]></content>
     </entry>
     <entry>
