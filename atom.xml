@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-07-17T03:02:38.608Z</updated>
+    <updated>2020-07-17T03:04:47.124Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -11,67 +11,38 @@
     <icon>https://ImproperMelon.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Immelon</rights>
     <entry>
-        <title type="html"><![CDATA[考后交流群的想法]]></title>
-        <id>https://ImproperMelon.github.io/post/xichuan/</id>
-        <link href="https://ImproperMelon.github.io/post/xichuan/">
+        <title type="html"><![CDATA[Taro + 微信小程序云开发]]></title>
+        <id>https://ImproperMelon.github.io/post/taro-wei-xin-xiao-cheng-xu-yun-kai-fa/</id>
+        <link href="https://ImproperMelon.github.io/post/taro-wei-xin-xiao-cheng-xu-yun-kai-fa/">
         </link>
-        <updated>2020-07-07T13:57:01.000Z</updated>
-        <content type="html"><![CDATA[<p>去年（2019）建了一个考后交流群，建立时，大概是这样的定位：</p>
-<ul>
-<li>主要对象： 面向淅川县一高的学生</li>
-<li>主要目的：给学生提供志愿报考上的帮助</li>
-<li>主要原则：
-<ul>
-<li>短期交流，录取结果出来之后解散</li>
-<li>热度适中，避免交流混乱</li>
-<li>平台效果，提供（准大学生——大学生之间的）对接功能</li>
-<li>公益活动，不给广告和推广进入的机会</li>
-</ul>
-</li>
-</ul>
-<p>最后效果基本满足以上要求，但是仍有一些不足：</p>
+        <updated>2020-07-16T03:12:44.000Z</updated>
+        <content type="html"><![CDATA[<p>最近在学车，驾校有点穷，好多人共用一辆车。</p>
+<p>恰逢暑假，学车人数激增，练车排队很麻烦。</p>
+<p>遇到协商环节就有可能出现矛盾。</p>
+<p>于是打算微信小程序做一个签到排队的工具。（又因为没有钱开服务器，所以打算试试所谓的 serverless 开发）</p>
+<h2 id="后端处理逻辑">后端处理逻辑</h2>
 <ol>
-<li>交流不充分，主要因为持续时间短、面向对象范围窄</li>
-<li>资料整理不完善，缺少比较擅长整理与处理文件的人</li>
+<li>后台服务搭建思路</li>
+<li>数据库建立</li>
+<li>数据交互</li>
+<li>【签到 / 打卡】后端逻辑处理</li>
+<li>【当前队列】后端逻辑处理</li>
+<li>【离开 / 暂时离开队列】后端逻辑处理</li>
 </ol>
-<p>今年打算重启，不一样的地方：</p>
-<ol>
-<li>成员结构变了（准大学生+大一+大二）</li>
-<li>客观环境变了（全面线下+部分线上）</li>
-</ol>
-<p>今年的打算：</p>
-<ol>
-<li>面向对象：淅川的准大学生</li>
-<li>主要目的：提供高考后的全面交流</li>
-<li>主要原则：
-<ol>
-<li>团队协作：宣传推广+活动策划+行动策划+技术支持</li>
-<li>专业管理：资料管理、人员管理</li>
-<li>保驾护航：要提供高考后的一揽子支持</li>
-<li>平台化：提供大一与准大学生的对接，不一味追求热度与流量</li>
-</ol>
-</li>
-</ol>
-<p>主要模式：</p>
-<blockquote>
-<p>Q1： 怎样进行整个活动？<br>
-<img src="https://ImproperMelon.github.io/post-images/1594129872109.png" alt="" loading="lazy"></p>
-</blockquote>
-<blockquote>
-<p>Q2：群结构是怎样的？</p>
-</blockquote>
-<ul>
-<li>大一：提供咨询和帮助的主力（预计比例在 40% 左右）</li>
-<li>大二：管理与运营（预计比例在 10% 左右）
-<ul>
-<li>技术、宣传、活动</li>
-</ul>
-</li>
-<li>准大学生：被帮助的群体（预计比例在 50% 左右）</li>
-</ul>
-<blockquote>
-<p>Q3：待续</p>
-</blockquote>
+<h3 id="搭建思路">搭建思路</h3>
+<p>参考<a href="https://developers.weixin.qq.com/community/develop/article/doc/000e4a51524570e51278579d656c13">https://developers.weixin.qq.com/community/develop/article/doc/000e4a51524570e51278579d656c13</a></p>
+<p>主要是<strong>数据库建立</strong> + <strong>前后端数据交互</strong><br>
+<strong>数据库建立</strong>：<br>
+数据集合 + 初始数据创建，在这个 demo 里我们需要的数据集：User（好像确实没有更多的数据集了）。<br>
+然后是数据集权限， User 的数据权限就是所有人可读、管理员可写</p>
+<p><strong>数据交互</strong><br>
+前端调用云函数（<code>Taro.cloud.callFunction</code>） --&gt;<br>
+进入入口云函数(<code>./cloud/waitingList/index.js</code>) --&gt;<br>
+调用子云函数(<code>./cloud/waitingList/getStatus.js || changeStatus.js</code>)</p>
+<h3 id="签到-打卡-后端逻辑处理">【签到 / 打卡】 后端逻辑处理</h3>
+<p>（草稿图，，，真的是草稿图，，就不要批评我太敷衍了嘛）<br>
+<img src="https://ImproperMelon.github.io/post-images/1594871839609.png" alt="" loading="lazy"><br>
+要处理的主要逻辑：</p>
 ]]></content>
     </entry>
     <entry>
