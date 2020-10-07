@@ -2,12 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-10-07T05:15:05.462Z</updated>
+    <updated>2020-10-07T05:23:23.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
-    <subtitle>歪瓜的学习与生活</subtitle>
+    <subtitle>immelon 的学习、工作与生活</subtitle>
     <logo>https://ImproperMelon.github.io/images/avatar.png</logo>
     <icon>https://ImproperMelon.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Immelon</rights>
+    <entry>
+        <title type="html"><![CDATA[【immelon 的博客周刊 001】]]></title>
+        <id>https://ImproperMelon.github.io/post/immelon-de-bo-ke-zhou-kan-001/</id>
+        <link href="https://ImproperMelon.github.io/post/immelon-de-bo-ke-zhou-kan-001/">
+        </link>
+        <updated>2020-10-07T05:21:13.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="为了让自己考研顺利一些增加自己的阅读量开一刊周报">为了让自己考研顺利一些，增加自己的阅读量，开一刊周报。</h1>
+]]></content>
+    </entry>
 </feed>
