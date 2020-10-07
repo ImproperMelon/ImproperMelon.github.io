@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Taro + 微信小程序云开发 - Immelon</title>
+<title>【408】校验码 - Immelon</title>
 <link rel="shortcut icon" href="https://ImproperMelon.github.io/favicon.ico">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
 <link rel="stylesheet" href="https://ImproperMelon.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://ImproperMelon.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Taro + 微信小程序云开发 - Immelon - Atom Feed" href="https://ImproperMelon.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="【408】校验码 - Immelon - Atom Feed" href="https://ImproperMelon.github.io/atom.xml">
 
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166775748-1"></script>
@@ -23,30 +23,42 @@
   </script>
     
 
-  <meta name="description" content="最近在学车，驾校有点穷，好多人共用一辆车。
-恰逢暑假，学车人数激增，练车排队很麻烦。
-遇到协商环节就有可能出现矛盾。
-于是打算微信小程序做一个签到排队的工具。（又因为没有钱开服务器，所以打算试试所谓的 serverless 开发）
-（先记个..." />
-  <meta property="og:title" content="Taro + 微信小程序云开发 - Immelon">
-  <meta property="og:description" content="最近在学车，驾校有点穷，好多人共用一辆车。
-恰逢暑假，学车人数激增，练车排队很麻烦。
-遇到协商环节就有可能出现矛盾。
-于是打算微信小程序做一个签到排队的工具。（又因为没有钱开服务器，所以打算试试所谓的 serverless 开发）
-（先记个..." />
+  <meta name="description" content="校验码笔记
+校验原理：
+
+码字：由若干位代码组成的一个字叫码字。
+两个码字间的距离：将两个码字诸位对比，具有不同的位的个数称为两个码字间的距离。
+码距：一种编码方案可能有若干个合法码字，各合法码字间的最小距离称为“码距”。
+
+
+码距 = 2..." />
+  <meta property="og:title" content="【408】校验码 - Immelon">
+  <meta property="og:description" content="校验码笔记
+校验原理：
+
+码字：由若干位代码组成的一个字叫码字。
+两个码字间的距离：将两个码字诸位对比，具有不同的位的个数称为两个码字间的距离。
+码距：一种编码方案可能有若干个合法码字，各合法码字间的最小距离称为“码距”。
+
+
+码距 = 2..." />
   <meta property="og:type" content="articles">
-  <meta property="og:url" content="https://ImproperMelon.github.io/post/taro-wei-xin-xiao-cheng-xu-yun-kai-fa/" />
+  <meta property="og:url" content="https://ImproperMelon.github.io/post/408-xiao-yan-ma/" />
   <meta property="og:image" content="https://ImproperMelon.github.io/images/avatar.png">
   <meta property="og:image:height" content="630">
   <meta property="og:image:width" content="1200">
-  <meta name="twitter:title" content="Taro + 微信小程序云开发 - Immelon">
-  <meta name="twitter:description" content="最近在学车，驾校有点穷，好多人共用一辆车。
-恰逢暑假，学车人数激增，练车排队很麻烦。
-遇到协商环节就有可能出现矛盾。
-于是打算微信小程序做一个签到排队的工具。（又因为没有钱开服务器，所以打算试试所谓的 serverless 开发）
-（先记个...">
+  <meta name="twitter:title" content="【408】校验码 - Immelon">
+  <meta name="twitter:description" content="校验码笔记
+校验原理：
+
+码字：由若干位代码组成的一个字叫码字。
+两个码字间的距离：将两个码字诸位对比，具有不同的位的个数称为两个码字间的距离。
+码距：一种编码方案可能有若干个合法码字，各合法码字间的最小距离称为“码距”。
+
+
+码距 = 2...">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://ImproperMelon.github.io/post/taro-wei-xin-xiao-cheng-xu-yun-kai-fa/">
+  <link rel="canonical" href="https://ImproperMelon.github.io/post/408-xiao-yan-ma/">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
@@ -68,42 +80,38 @@
     <div class="max-w-4xl w-full mx-auto">
       <div class="shadow-box bg-white dark:bg-gray-600 rounded-lg pt-32 md:pt-64 px-4 md:px-8 pb-8 animated fadeIn mb-8">
         <h1 class="text-5xl font-semibold leading-normal pb-8 mb-8 border-b-8 border-gray-700">
-          Taro + 微信小程序云开发
+          【408】校验码
         </h1>
         
         <div class="mb-8 flex flex-wrap">
-          <div class="text-gray-400 text-sm mr-4">2020-07-16 · 2 min read</div>
+          <div class="text-gray-400 text-sm mr-4">2020-09-14 · 1 min read</div>
           
         </div>
         <div class="markdown mb-8" v-pre>
-          <p>最近在学车，驾校有点穷，好多人共用一辆车。</p>
-<p>恰逢暑假，学车人数激增，练车排队很麻烦。</p>
-<p>遇到协商环节就有可能出现矛盾。</p>
-<p>于是打算微信小程序做一个签到排队的工具。（又因为没有钱开服务器，所以打算试试所谓的 serverless 开发）</p>
-<p>（先记个坑，使用 taro 初始化云小程序时，打包编译需要在 client 文件夹下操作，不然会报找不到 config.js 错）</p>
-<h2 id="后端处理逻辑">后端处理逻辑</h2>
-<ol>
-<li>后台服务搭建思路</li>
-<li>数据库建立</li>
-<li>数据交互</li>
-<li>【签到 / 打卡】后端逻辑处理</li>
-<li>【当前队列】后端逻辑处理</li>
-<li>【离开 / 暂时离开队列】后端逻辑处理</li>
-</ol>
-<h3 id="搭建思路">搭建思路</h3>
-<p>参考<a href="https://developers.weixin.qq.com/community/develop/article/doc/000e4a51524570e51278579d656c13">https://developers.weixin.qq.com/community/develop/article/doc/000e4a51524570e51278579d656c13</a></p>
-<p>主要是<strong>数据库建立</strong> + <strong>前后端数据交互</strong><br>
-<strong>数据库建立</strong>：<br>
-数据集合 + 初始数据创建，在这个 demo 里我们需要的数据集：User（好像确实没有更多的数据集了）。<br>
-然后是数据集权限， User 的数据权限就是所有人可读、管理员可写</p>
-<p><strong>数据交互</strong><br>
-前端调用云函数（<code>Taro.cloud.callFunction</code>） --&gt;<br>
-进入入口云函数(<code>./cloud/waitingList/index.js</code>) --&gt;<br>
-调用子云函数(<code>./cloud/waitingList/getStatus.js || changeStatus.js</code>)</p>
-<h3 id="签到-打卡-后端逻辑处理">【签到 / 打卡】 后端逻辑处理</h3>
-<p>（草稿图，，，真的是草稿图，，就不要批评我太敷衍了嘛）<br>
-<img src="https://ImproperMelon.github.io/post-images/1594871839609.png" alt="" loading="lazy"><br>
-要处理的主要逻辑：</p>
+          <h1 id="校验码笔记">校验码笔记</h1>
+<h2 id="校验原理">校验原理：</h2>
+<ul>
+<li><strong>码字</strong>：由若干位代码组成的一个字叫码字。</li>
+<li><strong>两个码字间的距离</strong>：将两个码字诸位对比，具有不同的位的个数称为两个码字间的距离。</li>
+<li><strong>码距</strong>：一种编码方案可能有若干个合法码字，各合法码字间的最小距离称为“码距”。</li>
+</ul>
+<blockquote>
+<p><em>码距 = 2 时只有检错功能，码距 ≥ 3 时可能具有纠错功能</em></p>
+</blockquote>
+<h2 id="奇偶校验码">奇偶校验码</h2>
+<ul>
+<li>
+<p>人的角度：奇校验码所有位上的 1 个数为奇，偶校验码所有位上的 1 个数为偶</p>
+</li>
+<li>
+<p>硬件实现：各信息位进行异或运算，得到结果即为偶校验位</p>
+<p>特点： 码距 = 2，仅有检错功能（只有'奇数' 个二进制位发生错误时才能检测出来）</p>
+</li>
+</ul>
+<blockquote>
+<p><em>异或运算(模2加)：两个比特位相异，异或运算结果为1，反之为0</em></p>
+</blockquote>
+<h2 id="海明码">海明码</h2>
 
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
@@ -147,14 +155,11 @@
       </div>
       <div class="post-toc-container">
         <ul class="markdownIt-TOC">
-<li>
+<li><a href="#%E6%A0%A1%E9%AA%8C%E7%A0%81%E7%AC%94%E8%AE%B0">校验码笔记</a>
 <ul>
-<li><a href="#%E5%90%8E%E7%AB%AF%E5%A4%84%E7%90%86%E9%80%BB%E8%BE%91">后端处理逻辑</a>
-<ul>
-<li><a href="#%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF">搭建思路</a></li>
-<li><a href="#%E7%AD%BE%E5%88%B0-%E6%89%93%E5%8D%A1-%E5%90%8E%E7%AB%AF%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86">【签到 / 打卡】 后端逻辑处理</a></li>
-</ul>
-</li>
+<li><a href="#%E6%A0%A1%E9%AA%8C%E5%8E%9F%E7%90%86">校验原理：</a></li>
+<li><a href="#%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E7%A0%81">奇偶校验码</a></li>
+<li><a href="#%E6%B5%B7%E6%98%8E%E7%A0%81">海明码</a></li>
 </ul>
 </li>
 </ul>
