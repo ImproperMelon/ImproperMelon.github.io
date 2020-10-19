@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ImproperMelon.github.io</id>
     <title>Immelon</title>
-    <updated>2020-10-07T05:23:23.907Z</updated>
+    <updated>2020-10-19T10:44:23.204Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ImproperMelon.github.io"/>
     <link rel="self" href="https://ImproperMelon.github.io/atom.xml"/>
@@ -17,6 +17,102 @@
         </link>
         <updated>2020-10-07T05:21:13.000Z</updated>
         <content type="html"><![CDATA[<h1 id="为了让自己考研顺利一些增加自己的阅读量开一刊周报">为了让自己考研顺利一些，增加自己的阅读量，开一刊周报。</h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CMD 命令]]></title>
+        <id>https://ImproperMelon.github.io/post/cmd/</id>
+        <link href="https://ImproperMelon.github.io/post/cmd/">
+        </link>
+        <updated>2020-06-15T08:34:34.000Z</updated>
+        <content type="html"><![CDATA[<p>参考的一位香港（也许是台湾?）同胞的教程（同胞在文字表达上真的也好机车哦）</p>
+<h1 id="参考网址">参考：<a href="https://lnpcd.blogspot.com/2012/09/00.html">网址</a></h1>
+<p>#基础知识</p>
+<h2 id="command-prompt">Command &amp; Prompt</h2>
+<blockquote>
+<p>&quot;命令&quot;即对电脑下命令，之后电脑会回&quot;提示&quot;</p>
+</blockquote>
+<h2 id="终端">终端</h2>
+<blockquote>
+<p>原来电脑没有自己的主机，很多台电脑连接到一台主机（服务器）使用，因此叫做 terminal</p>
+</blockquote>
+<h2 id="图形用户界面-命令行界面">图形用户界面 &amp; 命令行界面</h2>
+<blockquote>
+<p>Graphic User Interface GUI<br>
+Command Line Interface CLI</p>
+</blockquote>
+<h2 id="手册">手册</h2>
+<p>以下均可：<br>
+<code>help [command]</code><br>
+<code>command -help</code><br>
+<code>command -h</code><br>
+<code>command --help</code><br>
+<code>command /h</code><br>
+📌<code>command /?</code></p>
+<h2 id="环境">环境</h2>
+<p><code>dir</code> 命令，主要用来查看目录信息（自己看 help 手册）</p>
+<h2 id="入门">入门</h2>
+<p><code>cls</code> 清除屏幕上已显示的内容（再也不用重开一个）<br>
+<code>color</code> 自己看（抖音上就有一些无聊的人把颜色改成绿色，然后觉得很黑客？）<br>
+📌<code>pause</code> 暂停批处理命令的执行<br>
+<code>title</code> 自己看<br>
+📌<code>echo</code> 在下面显示后面的内容<br>
+<code>date</code> 修改/显示日期（修改需要管理员权限）<br>
+<code>time</code> 同上<br>
+<code>exit</code></p>
+<h2 id="稍微实用">稍微实用</h2>
+<p><code>shutdown</code> 有很多平时难以做到的东西：定时关机就挺不好弄的<br>
+<code>cd</code> 有一个 /d 参数值得注意（直接cd d:\是没有用的，要想直接修改到某一目录也是需要加 /d 的）<br>
+<img src="https://ImproperMelon.github.io/post-images/1592213610890.png" alt="" loading="lazy"><br>
+<img src="https://ImproperMelon.github.io/post-images/1592213656609.png" alt="" loading="lazy"><br>
+<code>md</code>不多说<br>
+<code>rd</code> 删除目录，一般加上 /s /q （全部清除、不再询问）<br>
+<code>del</code> 删除文件，一般加上 /f /q（强制删除，安静模式）<br>
+<code>move</code> 移动文件，可以选择覆盖 /y（实际上只是更名）<br>
+<code>copy</code> 复制</p>
+<h2 id="深度">深度</h2>
+<p><code>attrib</code> 更改文件属性 （用+ &amp; - 来操作。具体看手册）<br>
+<code>tree</code> 显示此目录下的树状结构<br>
+<code>tasklist</code> 显示进程<br>
+<code>taskkill</code> 结束进程，需要用 /im 参数跟上程序名，/f 是强制关闭<br>
+<code>type</code> 显示文字内容<br>
+<code>ping</code> 自己看</p>
+<h2 id="符号">符号</h2>
+<p><code>::</code> 注释<br>
+<code>.</code>与<code>..</code> 本目录与上层目录<br>
+<code>?</code> 表示一个不确定的字母，如<code>te?t</code> 可以表示 <code>test</code> 或者 <code>text</code><br>
+<code>*</code> 表示多个不确定的字母<br>
+<code>%</code>后跟变量<br>
+<code>nul</code> 或<code>null</code><br>
+<code>&gt;</code> 把将要显示在命令行的内容显示到 <code>&gt;</code> 之后的地方<br>
+<code>&gt;&gt;</code> 继续写入，（不同于<code>&gt;</code> ，<code>&gt;</code> 会将原来的内容覆盖）<br>
+<code>1&gt;</code> 标准输出到后面的地方<br>
+<code>2&gt;</code> 标准错误输出到后面的地方（只输出错误信息）<br>
+<code>|</code>  将左边命令的输出结果转到右边的程序中（不理解啊）<br>
+<code>&amp;&amp;</code> 合并命令</p>
+<p><strong>还有 '@' 和 '^' 在后面介绍</strong></p>
+<h2 id="进阶">进阶</h2>
+<p><code>subst</code> subset，重挂载命令（一次性，重启 cmd 后无效）<br>
+<code>subset P: C:\Users</code> 这就可以把 C:\Users 这个目录挂载为 P:<br>
+<code>subset P: /D</code> 这个就可以把 P: 盘删除掉</p>
+<p><code>find</code> 百闻不如一见<br>
+<code>find &quot;text&quot; test.txt</code> 在 test.txt 文件中寻找 text 字符串，参数自己去看 help</p>
+<p><code>mountvol</code> 显示目前已经装载了的磁盘名（Volume：卷）<br>
+<img src="https://ImproperMelon.github.io/post-images/1592908840132.png" alt="" loading="lazy"></p>
+<pre><code>于是就有 mountvol | find &quot;:\&quot;
+这个可以显示当前的已装载的磁盘名
+</code></pre>
+<p><code>start</code> 启动一个程序（如果这个程序是一个控制台程序，它就会新开一个 cmd）<br>
+可以加上参数（可以设置优先性、以及可以限制此程序在哪一个 CPU 上运行，我们的电脑大多可不是单核的、还可以设置异步😱）</p>
+<h2 id="正题">正题</h2>
+<p><code>if</code>  与 <code>if not</code> 后面跟表达式</p>
+<h3 id="变量">变量</h3>
+<p><code>set</code> 设置一个变量 <code>set var=5</code>（数字）或者<code>set &quot;var=Test String&quot;</code>（字符串）（=两边不能有空格哦）</p>
+<ul>
+<li>-p ：等待用户的输入<code>set -p var=</code><br>
+<code>%</code>访问变量<code>echo %var%</code></li>
+</ul>
+<p>环境变量（经常用到这个东西）</p>
 ]]></content>
     </entry>
 </feed>
